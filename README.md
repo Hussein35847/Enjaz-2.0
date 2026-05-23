@@ -45,7 +45,7 @@ Enjaz_Desktop/
 Enjaz_Extension/
   └── Enjaz-Extension.zip
 
-assests/
+assets/
   └── icon.png
 ```
 
