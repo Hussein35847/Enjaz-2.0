@@ -16,20 +16,20 @@ This repository currently contains ready-to-use distributables for:
 ### 💻 Desktop App
 
 - Windows  
-  [Download Enjaz-Windows.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/latest)
+  [Download Enjaz-Windows.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-Windows.zip)
 
 - Linux  
-  [Download Enjaz-Linux.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/latest)
+  [Download Enjaz-Linux.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-Linux.zip)
 
 - macOS  
-  [Download Enjaz-macOS.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/latest)
+  [Download Enjaz-macOS.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-macOS.zip)
 
 ---
 
 ### 🧩 Browser Extension
 
 - 🌐 Extension  
-  [Download Enjaz-Extension.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/latest)
+  [Download Enjaz-Extension.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-Extension.zip)
 
 ## Repository Contents
 
