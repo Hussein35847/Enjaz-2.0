@@ -28,7 +28,7 @@ This repository currently contains ready-to-use distributables for:
 
 ### 🧩 Browser Extension
 
-- 🌐 Extension  
+- Extension  
   [Download Enjaz-Extension.zip](https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-Extension.zip)
 
 ## Repository Contents
