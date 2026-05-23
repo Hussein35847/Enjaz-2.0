@@ -2,6 +2,10 @@
 
 Enjaz is a keyboard-layout conversion toolkit that helps fix text typed with the wrong layout between **Arabic** and **English**.
 
+<p align="center">
+  <img src="assests/icon.png" alt="Enjaz Extension Icon" width="140"/>
+</p>
+
 This repository currently contains ready-to-use distributables for:
 
 - Desktop app (Windows, Linux, macOS)
