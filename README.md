@@ -135,3 +135,6 @@ File: `Enjaz_Extension/Enjaz-Extension.zip`
 
 If you find an issue or have feedback, open a GitHub issue in this repository.
 
+---
+
+**Mohamed Essam**
