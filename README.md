@@ -11,6 +11,26 @@ This repository currently contains ready-to-use distributables for:
 - Desktop app (Windows, Linux, macOS)
 - Browser extension
 
+## 📥 Download
+
+### 💻 Desktop App
+
+- Windows  
+  [Download Enjaz-Windows.zip](Enjaz_Desktop/Windows/Enjaz-Windows.zip)
+
+- Linux  
+  [Download Enjaz-Linux.zip](Enjaz_Desktop/Linux/Enjaz-Linux.zip)
+
+- macOS  
+  [Download Enjaz-macOS.zip](Enjaz_Desktop/macOS/Enjaz-macOS.zip)
+
+---
+
+### 🧩 Browser Extension
+
+- 🌐 Extension  
+  [Download Enjaz-Extension.zip](Enjaz_Extension/Enjaz-Extension.zip)
+
 ## Repository Contents
 
 ```text
