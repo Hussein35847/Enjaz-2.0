@@ -47,7 +47,7 @@ Enjaz_Extension/
 
 assets/
   ├── icon.png
-  └── Illustrative pictures
+  └── Illustrative images
 ```
 
 ## Features
