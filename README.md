@@ -1,6 +1,6 @@
 # Enjaz
 
-Enjaz is a keyboard-layout conversion toolkit that helps fix text typed with the wrong layout between **Arabic** and **English**.
+enjaz is a keyboard-layout conversion toolkit that helps fix text typed with the wrong layout between **Arabic** and **English**.
 
 <p align="center">
   <img src="assets/icon.png" alt="Enjaz Extension Icon" width="140"/>
