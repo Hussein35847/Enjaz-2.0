@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enjaz | Arabic-English Keyboard Layout Converter</title>
+    <meta name="description" content="Instantly fix text typed using the wrong keyboard language layout between Arabic and English.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/tThT2Fj2/icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <div class="logo">
+                <img src="https://i.ibb.co/tThT2Fj2/icon.png" alt="Enjaz Icon" class="logo-img">
+                <span>Enjaz</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#downloads">Download</a>
+                <a href="https://github.com/Moham3d-3ssam/Enjaz" target="_blank" rel="noopener" class="nav-github">
+                    GitHub
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </nav>
 
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <div class="badge">Open Source &bull; v1.0.0</div>
+                <h1 class="hero-title">Fix layout mistakes instantly.</h1>
+                <p class="hero-subtitle">Enjaz runs seamlessly in the background to convert incorrectly typed text from the Arabic keyboard layout to English and vice versa. Keep your hands on the keyboard.</p>
+                <div class="hero-actions">
+                    <a href="#downloads" class="btn btn-primary">Get Enjaz</a>
+                    <a href="#features" class="btn btn-secondary">Explore Features</a>
+                </div>
+            </div>
+
+            <div class="hero-demo" aria-hidden="true">
+                <div class="editor-window">
+                    <div class="editor-header">
+                        <div class="controls">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="editor-title">enjaz-demo ~ bash</div>
+                    </div>
+                    <div class="editor-body">
+                        <div class="input-group">
+                            <span class="prompt">$</span>
+                            <span id="demo-wrong" class="typed-text"></span><span class="cursor"></span>
+                        </div>
+                        <div class="output-group" id="demo-output-group">
+                            <span class="arrow">↳</span>
+                            <span id="demo-correct" class="fixed-text"></span>
+                            <span class="badge-small">Converted</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Built for productivity</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                    </div>
+                    <h3>Real-time Conversion</h3>
+                    <p>Convert text from Arabic to English and vice versa instantly, without interrupting your flow.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 8h6"/><path d="M9 12h6"/><path d="M9 16h6"/></svg>
+                    </div>
+                    <h3>Context Menu</h3>
+                    <p>Right-click any selected text to convert it instantly using the built-in context menu integration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+                    </div>
+                    <h3>Direct Replacement</h3>
+                    <p>Optionally replace the selected incorrect text directly inside editable text fields.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 8h.01"/><path d="M12 12h.01"/><path d="M14 8h.01"/><path d="M16 12h.01"/><path d="M18 8h.01"/><path d="M6 8h.01"/><path d="M7 16h10"/><path d="M8 12h.01"/><rect width="20" height="16" x="2" y="4" rx="2"/></svg>
+                    </div>
+                    <h3>Global Shortcuts</h3>
+                    <p>Trigger conversions anywhere on your system using customizable keyboard shortcuts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="downloads" class="downloads">
+        <div class="container">
+            <h2 class="section-title">Available everywhere</h2>
+            <div class="download-grid">
+                <a href="https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-Windows.zip" class="download-card">
+                    <div class="dl-header">
+                        <h3>Windows</h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                    </div>
+                    <div class="dl-action">Download .zip &rarr;</div>
+                </a>
+                
+                <a href="https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-macOS.zip" class="download-card">
+                    <div class="dl-header">
+                        <h3>macOS</h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 1.44S9.22 5 7 5a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"></path><path d="M10 2c1 .5 2 2 2 5"></path></svg>
+                    </div>
+                    <div class="dl-action">Download .zip &rarr;</div>
+                </a>
+
+                <a href="https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-Linux.zip" class="download-card">
+                    <div class="dl-header">
+                        <h3>Linux</h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.686 2 6 5.134 6 9c0 1.62.621 3.12 1.664 4.314.153.175.244.398.244.631V16c0 1.105.895 2 2 2h4c1.105 0 2-.895 2-2v-2.055c0-.233.091-.456.244-.631C17.379 12.12 18 10.62 18 9c0-3.866-2.686-7-6-7Z"></path><path d="M9 22h6"></path><path d="M9 18h6"></path><circle cx="10" cy="10" r="1"></circle><circle cx="14" cy="10" r="1"></circle></svg>
+                    </div>
+                    <div class="dl-action">Download .zip &rarr;</div>
+                </a>
+
+                <a href="https://github.com/Moham3d-3ssam/Enjaz/releases/download/v1.0.0/Enjaz-Extension.zip" class="download-card">
+                    <div class="dl-header">
+                        <h3>Browser Extension</h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    </div>
+                    <div class="dl-action">Download .zip &rarr;</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <span class="footer-logo">Enjaz</span>
+                <span class="footer-desc">Productivity tool for Arabic/English typists.</span>
+            </div>
+            <div class="footer-right">
+                <a href="https://github.com/Moham3d-3ssam/Enjaz">Source Code</a>
+                <a href="https://github.com/Moham3d-3ssam/Enjaz/issues">Report an Issue</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
