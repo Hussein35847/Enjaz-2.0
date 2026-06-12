@@ -49,8 +49,22 @@ assets/
   ├── icon.png
   └── Illustrative images
 ```
+## Description
+
+Added a landing page for the Enjaz project.
+
+### Features
+
+* Modern responsive design
+* Project introduction
+* Features section
+* Installation guide
+* GitHub repository link
+
+This website helps users understand the project and improves its presentation for new visitors and contributors.
 
 ## Features
+
 
 - Arabic ↔ English keyboard-layout text conversion
 - Real-time conversion in the extension popup
